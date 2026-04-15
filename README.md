@@ -1,6 +1,6 @@
-# 🎬 Animated Slideshow
+# 🎬 Immersive Visual AI Concept
 
-> An immersive, scroll-driven visual experience built with vanilla HTML, CSS, and JavaScript.
+> An immersive, scroll-driven visual experience built with vanilla HTML, CSS, and JavaScript — created entirely with Claude Code.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
@@ -9,27 +9,40 @@
 
 ---
 
+## 🌐 Live Demo
+
+**[👉 View it live here](https://mariusbuciuman.github.io/immersive-visual-AI-concept/)**
+
+---
+
 ## ✨ Overview
 
-Animated Slideshow is a scroll-driven, full-screen presentation experience featuring parallax backgrounds, animated canvas effects, smooth section transitions, and a polished UI — all without any frameworks or build tools.
+Immersive Visual AI Concept is a scroll-driven, full-screen presentation experience featuring parallax backgrounds, animated canvas effects, smooth section transitions, and a polished UI — all without any frameworks or build tools.
 
-Crafted entirely with **Claude Code**, this project demonstrates what modern vanilla web development can achieve: cinematic motion, layered depth, and fluid interactivity.
+The project walks you through six cinematic sections:
+
+- **Hero** — animated title reveal with glowing orbs and gradient text
+- **Mountain Serenity** — parallax nature imagery with layered overlays
+- **Urban Dreams** — city scene with floating geometric shapes
+- **Ocean Whispers** — deep-toned slide with parallax depth elements
+- **Amazing Features** — animated feature cards grid
+- **Ready to Create?** — full-screen CTA with background animation
 
 ---
 
 ## 🚀 Features
 
-- **Canvas background animation** — dynamic particle/graphic layer rendered via `<canvas>`
+- **Canvas background animation** — dynamic particle layer rendered via `<canvas>`
 - **Scroll-snapping sections** — six full-viewport sections navigated by scroll or nav dots
-- **Parallax imagery** — background images with depth-shift on scroll
+- **Parallax imagery** — background images with depth shift on scroll
 - **Animated hero section** — staggered word entrance with gradient text and glowing orbs
-- **Floating & parallax elements** — decorative shapes tied to scroll position
-- **Feature cards grid** — animated reveal on enter with SVG icons
+- **Floating & parallax decorations** — shapes tied to scroll position
+- **Feature cards grid** — animated reveal on scroll enter with SVG icons
 - **CTA section** — button with hover state swap and background animation
 - **Preloader** — spinner overlay that fades out on load
 - **Scroll progress bar** — fixed top indicator showing read progress
 - **Navigation dots** — clickable section indicators with active state sync
-- **Poppins typography** — loaded from Google Fonts for a clean, modern feel
+- **Poppins typography** — loaded from Google Fonts
 
 ---
 
@@ -47,31 +60,6 @@ Crafted entirely with **Claude Code**, this project demonstrates what modern van
 
 ---
 
-## 🛠 Getting Started
-
-No build tools or dependencies required.
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/animated-slideshow.git
-   cd animated-slideshow
-   ```
-
-2. **Open in browser**
-   ```bash
-   # Option A — direct open
-   open index.html
-
-   # Option B — local server (recommended to avoid CORS on fonts/images)
-   npx serve .
-   # or
-   python -m http.server 8080
-   ```
-
-3. Visit `http://localhost:8080` and scroll away.
-
----
-
 ## 🎨 Customization
 
 | What to change | Where |
@@ -81,13 +69,13 @@ No build tools or dependencies required.
 | Color palette | CSS custom properties at the top of `styles.css` |
 | Canvas behavior | `js/canvas.js` |
 | Scroll animation timing | `js/animations.js` |
-| Number of sections | Add/remove `<section>` tags and matching `<span class="nav-dot">` elements |
+| Number of sections | Add/remove `<section>` tags and matching `.nav-dot` elements |
 
 ---
 
 ## 🤖 Built with Claude Code
 
-This project was generated entirely using [Claude Code](https://claude.ai/code) — Anthropic's agentic coding tool. From the HTML structure and CSS animations to the JavaScript scroll logic and canvas layer, every line was written by Claude Code in a single session.
+This project was generated entirely using [Claude Code](https://claude.ai/code) — Anthropic's agentic coding tool. From the HTML structure and CSS animations to the JavaScript scroll logic and canvas layer, every line was written by Claude Code.
 
 ---
 
